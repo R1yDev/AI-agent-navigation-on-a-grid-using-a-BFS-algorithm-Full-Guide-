@@ -22,17 +22,15 @@ It also demonstrates basic graph-search (Breadth-First Search/en 🇫🇷 Parcou
 - BFS explores neighboring nodes (up, down, left, right) + avoiding obstacles.
 - When the target is reached, it reconstructs and prints the path from `S` to `T`.
 
-### 4) Clarification of the BFS algorithm
+### 4) Clarification of the BFS Algorithm 🔎
 - Initialize the queue to empty
 - Put the first node in the queue
-- **`While` the queue is not empty Do:**
-- => Remove the first node `(popleft)`
-- => **If the exit node is the goal Then:**
-- => => Success
-- => **Else :**
-- => => Put its neighbors at the end of the queue
-- => **End IF**
-- **`End While`**
+- **While** the queue is not empty, do:
+  - Remove the first node (`popleft`)
+  - **If** the removed node is the goal:
+    - ✅ Success
+  - **Else:**
+    - Put its neighbors at the end of the queue
 
 ## File structure
 - `robot.py` — all logic for grid creation, simulation, and BFS path finding.
