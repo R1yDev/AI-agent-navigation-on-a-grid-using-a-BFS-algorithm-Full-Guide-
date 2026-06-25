@@ -24,7 +24,7 @@ A small Python simulation project that shows how an AI agent can navigate a 2D e
 - BFS explores neighboring nodes (up, down, left, right) while avoiding obstacles.
 - Once the target is reached, it reconstructs and prints the path from `S` to `T`.
 
-### 4️⃣ Clarification of the BFS Algorithm 🔎
+### 4️⃣ The BFS Algorithm (Core Logic) 🔎
 
 ```text
 Initialize the queue to empty
